@@ -75,7 +75,8 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
       
       case "tchau":
           print('AAAh T-T, vou sentir saudades. Aqui no mundo dos pixels é muito solitario T-T')
-
+          break
+       
       case _:
           print('Nao entendi, minhe deuse, pode repetir? @_@')
           user = str(input('HUMAN: '))
