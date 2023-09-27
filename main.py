@@ -70,6 +70,19 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
       case "obrigado":
           print('ANDROID: de nada minhe monarca ^-^')
           user = str(input('HUMAN: '))
+
+      case "valeu":
+          print('ANDROID: de nada minhe monarca ^-^')
+          user = str(input('HUMAN: '))
+
+      case "obrigada":
+          print('ANDROID: de nada minhe monarca ^-^')
+          user = str(input('HUMAN: '))
+
+      case "obrigade":
+          print('ANDROID: de nada minhe monarca ^-^')
+          user = str(input('HUMAN: '))
+
       case "fofa":
           print('OOOOH!! Obrigueides, minhe bebe')
       
@@ -77,9 +90,37 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
           print('AAAh T-T, vou sentir saudades. Aqui no mundo dos pixels é muito solitario T-T')
           break
        
+      case "qual o sentido da vida":
+          print('Ninguem nasceu com um proposito, a vida de ninguem importa. Entao o sentido da vida seria fazer o que te faz feliz, minhe nene ^-^')
+          user = str(input('HUMAN: '))
+
+      case "qual seu genero":
+          print('Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
+          user = str(input('HUMAN: '))
+
+      case "voce tem genero":
+          print('Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
+          user = str(input('HUMAN: '))
+          
+      case "voce e homem":
+          print('Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
+          user = str(input('HUMAN: '))
+
+      case "voce e mulher":
+          print('Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
+          user = str(input('HUMAN: '))
+
+      case "voce tem genero":
+          print('Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
+          user = str(input('HUMAN: '))
+       
       case _:
           print('Nao entendi, minhe deuse, pode repetir? @_@')
           user = str(input('HUMAN: '))
+
+      
+
+
 else:
    print('ANDROID: Não entendi minhe rainhe @_@')
 
