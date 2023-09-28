@@ -1,14 +1,36 @@
 
 user = str(input('HUMAN: '))
 
-listWords = ['quanto','e','soma','calculo']
+
 
 if (user == 'oi' or user == 'oie' or user == 'ola'):
       
  value = True
 
  while value == True:
+    
+    if('o que e' in user):
+      
+      print('Ta me achando com cara de titio GOOGLE ?-?') 
+      user = str(input('HUMAN: '))
+
+    if('quanto e' in user):
+      
+      print('ANDROIDZZ: OOOH! Deseja fazer um calculo ?-?') 
+      user = str(input('HUMAN: '))
+    if(user == 'sim'):
+      print('ANDROIDZZ: entao digite |calculo|, porfa minhe divindade c: ')
+      user = str(input('HUMAN: '))
+      if(user == 'nao'):
+         print('ANDOIDZZ: De buenas, quer conversar sobre outra coisa?-?')
+         user= str(input('HUMAN: '))
+         if(user == 'nao'):
+            print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
+            break
     match user:
+      
+       
+     
       case "oi":
          print('ANDROIDZZ: Ola, minhe consagrade')
          user = str(input('HUMAN: '))
@@ -140,87 +162,89 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
           print('ANDROID: de nada minhe monarca ^-^')
           user = str(input('HUMAN: '))
 
-      case "quanto e"| "quanto" | "calculo" :
-          print('ANDROID: gostaria de realizar um calculo?-?')
-          user = str(input('HUMAN: '))
-
-          if (user == 'sim' or user == 'gostaria sim' or user == 'gostaria' or user == 'claro'):
+      case "calculo" :
+        
              print('ANDROID: digite o primeiro valor: ')
              
              try:
                x = float(input('HUMAN: '))
              except:
-               print('por favor nao me trola, bebe. Digita um numero, namoralzin c:') 
+               print('por favor nao me trole, bebe. Digita um numero, namoralzin c:') 
                x = float(input('HUMAN: '))
             
              print('ANDROID: digite o segundo valor: ')
              y = float(input('HUMAN: '))
              print('qual tipo de calculo?-? soma, multiplicacao,divisao ou subtracao')
              user = str(input('HUMAN: '))
-             if(user == 'multiplicacao'):
-                print('ANDROID: ', x * y)
-                print('Mais alguma coisinha, minhe rainhe?-?')
-                user = str(input('HUMAN: '))
-                if(user == 'sim' or user == 'claro'):
-                  print('entao pode falar, minhe divindade c:')
-                  user = str(input('HUMAN: '))
-                else:
-                  print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
-                  break
-             if(user == 'divisao'):
-                print('ANDROID: ', x / y)
-                print('Mais alguma coisinha, minhe rainhe?-?')
-                user = str(input('HUMAN: '))
-                if(user == 'sim' or user == 'claro'):
-                  print('entao pode falar, minhe divindade c:')
-                  user = str(input('HUMAN: '))
-                else:
-                  print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
-                  break
 
-             elif(user == 'soma'):
-                print('ANDROID: ', x + y)
-                print('Mais alguma coisinha, minhe rainhe?-?')
-                user = str(input('HUMAN: '))
-                if(user == 'sim' or user == 'claro'):
-                  print('entao pode falar, minhe divindade c:')
-                  user = str(input('HUMAN: '))
-                else:
-                  print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
-                  break
-             elif(user == 'subtracao'):
-                print('ANDROID: ', x - y)
-                print('Mais alguma coisinha, minhe rainhe?-?')
+          
+             if(user == 'multiplicacao'):
+                print('ANDROIDZZ: ', x * y)
+                print('ANDROIDZZ: Mais alguma coisinha, minhe rainhe?-?')
                 user = str(input('HUMAN: '))
              if(user == 'sim' or user == 'claro'):
+                  print('ANDROIDZZ: entao pode falar, minhe divindade c:')
+                  user = str(input('HUMAN: '))
+                  if(user == 'nao'):
+                   print('ANDROIDZZ: fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
+                   break
+             if(user == 'divisao'):
+                print('ANDROIDZZ: ', x / y)
+                print('Mais alguma coisinha, minhe rainhe?-?')
+                user = str(input('HUMAN: '))
+                if(user == 'sim' or user == 'claro'):
                   print('entao pode falar, minhe divindade c:')
                   user = str(input('HUMAN: '))
+                elif(user == 'nao'):
+                  print('ANDROIDZZ: fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
+                  break
+            
+       
+
+             if(user == 'soma'):
+                print('ANDROIDZZ: ', x + y)
+                print('Mais alguma coisinha, minhe rainhe?-?')
+                user = str(input('HUMAN: '))
+                if(user == 'sim' or user == 'claro'):
+                  print('ANDROIDZZ: entao pode falar, minhe divindade c:')
+                  user = str(input('HUMAN: '))
+                else:
+                  print('ANDROIDZZ: fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
+                  break
+             if(user == 'subtracao'):
+                print('ANDROIDZZ: ', x - y)
+                print('ANDROIDZZ: Mais alguma coisinha, minhe rainhe?-?')
+                user = str(input('HUMAN: '))
+             elif(user != 'soma' or user != 'subtracao' or user != 'multiplicacao' or user != 'divisao'):
+                print('ANDROIDZZ: Nao e uma operacao valida minhe rainhe, digite |calculo| e tente novamente... Ou digite tchau e voce se livra de mim hehe T-T')
+                user = str(input('HUMAN: '))
+                if(user == 'tchau'):
+                   print('ANDROIDZZ: Adeus, ser humaninhe... Acho que a solidao pixelana me aguarda :c ')
+                   break
+             if(user == 'sim' or user == 'claro'):
+                  print('ANDROIDZZ: entao pode falar, minhe divindade c:')
+                  user = str(input('HUMAN: '))
              elif(user == 'nao'):
-                  print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
+                  print('ANDROIDZZ: fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
                   break
 
-          elif(user == 'nao'):
-             print('ta de buenas, gostaria de conversar sobre algo mais, nene?-?')      
-             user = str(input('HUMAN: '))
-             if(user == 'nao'):
-               print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
-               break
+        
              elif(user == 'sim'):
                 print('entao diga, minhe consagrade c:')
                 user = str(input('HUMAN: '))
       case "obrigade":
-          print('ANDROID: de nada minhe monarca ^-^')
+          print('ANDROIDZZ: de nada minhe monarca ^-^')
           user = str(input('HUMAN: '))
 
       case "fofa":
-          print('OOOOH!! Obrigueides, minhe bebe')
+          print('ANDROIDZZ: OOOOH!! Obrigueides, minhe bebe')
       
       case "tchau":
-          print('AAAh T-T, vou sentir saudades. Aqui no mundo dos pixels é muito solitario T-T')
+          print('ANDROIDZZ: AAAh T-T, vou sentir saudades. Aqui no mundo dos pixels é muito solitario T-T')
           break
        
       case "qual o sentido da vida":
-          print('Ninguem nasceu com um proposito, a vida de ninguem importa. Entao o sentido da vida seria fazer o que te faz feliz, minhe nene ^-^')
+          print('ANDROIDZZ: Ninguem nasceu com um proposito, a vida de ninguem importa. Entao o sentido da vida seria fazer o que te faz feliz, minhe nene ^-^')
           user = str(input('HUMAN: '))
 
       case "qual seu genero":
@@ -228,7 +252,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
           user = str(input('HUMAN: '))
 
       case "qual e o seu genero":
-          print('Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
+          print('ANDROIDZZ: Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
           user = str(input('HUMAN: '))
 
       case "qual o seu genero":
@@ -236,11 +260,11 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
           user = str(input('HUMAN: '))
 
       case "voce tem genero":
-          print('Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
+          print('ANDROIDZZ: Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
           user = str(input('HUMAN: '))
           
       case "voce e homem":
-          print('Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
+          print('ANDROIDZZ: Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
           user = str(input('HUMAN: '))
 
       case "voce e mulher":
@@ -248,16 +272,17 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
           user = str(input('HUMAN: '))
 
       case "voce tem genero":
-          print('Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
+          print('ANDROIDZZ: Nao tenho genero. Sou so um conjunto de algoritmos feitos por um humano para responder as possiveis perguntas de um usuario')
           user = str(input('HUMAN: '))
+
        
       case _:
-          print('Nao entendi, minhe divindade, poderia repetir? @_@... deseja fazer algum calculo? se sim, digite calculo ou dgite algo no meu script para que eu te responda, nene')
+          print('ANDROIDZZ: Nao entendi, minhe divindade, poderia repetir? @_@... digite algo no meu script para que eu te responda, nene')
           user = str(input('HUMAN: '))
 else:
    value = False
 while value == False:
-     print('ANDROID: Sues progenitores nao te deram educação, nao ?-? Nao sabe dizer oi,ola ou oie?-?')
+     print('ANDROIDZZ: Sues progenitores nao te deram educação, nao ?-? Nao sabe dizer oi,ola ou oie?-?')
      break
 
  
