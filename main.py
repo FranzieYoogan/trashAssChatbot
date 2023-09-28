@@ -181,7 +181,11 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
                x = float(input('HUMAN: '))
             
              print('ANDROID: digite o segundo valor: ')
-             y = float(input('HUMAN: '))
+             try:
+               y = float(input('HUMAN: '))
+             except:
+               print('por favor nao me trole, bebe. Digita um numero, namoralzin c:') 
+               y = float(input('HUMAN: '))
              print('qual tipo de calculo?-? soma, multiplicacao,divisao ou subtracao')
              user = str(input('HUMAN: '))
 
