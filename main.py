@@ -17,7 +17,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
         print('ANDROIDZZ: eu te perdoo, danadinhe hehe ^-^. Vamos começar de novo,ta? fala |oi| pra papae')
         user = str(input('HUMAN: '))
      elif(user != 'desculpa' or user != 'me perdoa' or user != 'perdao' or user != 'foi mal'):
-        print('ANDROIDZZ: cebose, ATE NUNCA MAIS!!!!      De volta ao mundo dos pixels T-T')
+        print('ANDROIDZZ: sebose, ATE NUNCA MAIS!!!!      De volta ao mundo dos pixels T-T')
         break
     if('quanto e' in user):
       
@@ -251,11 +251,24 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
       case "fofa":
           print('ANDROIDZZ: OOOOH!! Obrigueides, minhe bebe')
           user = str(input('HUMAN: '))
+
+      case "fofo":
+          print('ANDROIDZZ: OOOOH!! Obrigueides, minhe bebe')
+          user = str(input('HUMAN: '))  
+
+      case "fofe":
+          print('ANDROIDZZ: OOOOH!! Obrigueides, minhe bebe')
+          user = str(input('HUMAN: ')) 
+      
       case "tchau":
           print('ANDROIDZZ: AAAh T-T, vou sentir saudades. Aqui no mundo dos pixels é muito solitario T-T')
           break
        
       case "qual o sentido da vida":
+          print('ANDROIDZZ: Ninguem nasceu com um proposito, a vida de ninguem importa. Entao o sentido da vida seria fazer o que te faz feliz, minhe nene ^-^')
+          user = str(input('HUMAN: '))
+
+      case "qual e o sentido da vida":
           print('ANDROIDZZ: Ninguem nasceu com um proposito, a vida de ninguem importa. Entao o sentido da vida seria fazer o que te faz feliz, minhe nene ^-^')
           user = str(input('HUMAN: '))
 
