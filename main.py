@@ -182,7 +182,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
                 print('ANDROIDZZ: ', x * y)
                 print('ANDROIDZZ: Mais alguma coisinha, minhe monarca?-?')
                 user = str(input('HUMAN: '))
-             if(user == 'sim' or user == 'claro'):
+                if(user == 'sim' or user == 'claro'):
                   print('ANDROIDZZ: entao pode falar, minhe divindade c:')
                   user = str(input('HUMAN: '))
                   if(user == 'nao'):
