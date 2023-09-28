@@ -211,7 +211,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
                 if(user == 'sim' or user == 'claro'):
                   print('ANDROIDZZ: entao pode falar, minhe divindade c:')
                   user = str(input('HUMAN: '))
-                else:
+                elif(user == 'nao'):
                   print('ANDROIDZZ: fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
                   break
              if(user == 'subtracao'):
