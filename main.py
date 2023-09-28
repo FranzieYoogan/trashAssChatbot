@@ -156,21 +156,43 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
                 print('ANDROID: ', x * y)
                 print('Mais alguma coisinha, minhe rainhe?-?')
                 user = str(input('HUMAN: '))
-
+                if(user == 'sim' or user == 'claro'):
+                  print('entao pode falar, minhe divindade c:')
+                  user = str(input('HUMAN: '))
+                else:
+                  print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
+                  break
              if(user == 'divisao'):
                 print('ANDROID: ', x / y)
                 print('Mais alguma coisinha, minhe rainhe?-?')
                 user = str(input('HUMAN: '))
-
+                if(user == 'sim' or user == 'claro'):
+                  print('entao pode falar, minhe divindade c:')
+                  user = str(input('HUMAN: '))
+                else:
+                  print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
+                  break
 
              elif(user == 'soma'):
                 print('ANDROID: ', x + y)
                 print('Mais alguma coisinha, minhe rainhe?-?')
                 user = str(input('HUMAN: '))
+                if(user == 'sim' or user == 'claro'):
+                  print('entao pode falar, minhe divindade c:')
+                  user = str(input('HUMAN: '))
+                else:
+                  print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
+                  break
              elif(user == 'subtracao'):
                 print('ANDROID: ', x - y)
                 print('Mais alguma coisinha, minhe rainhe?-?')
                 user = str(input('HUMAN: '))
+             if(user == 'sim' or user == 'claro'):
+                  print('entao pode falar, minhe divindade c:')
+                  user = str(input('HUMAN: '))
+             elif(user == 'nao'):
+                  print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
+                  break
 
           elif(user == 'nao'):
              print('ta de buenas, gostaria de conversar sobre algo mais, nene?-?')      
