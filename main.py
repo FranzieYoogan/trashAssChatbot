@@ -10,39 +10,44 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
  while value == True:
     match user:
       case "oi":
-         print('Android: Ola, minhe consagrade')
+         print('ANDROIDZZ: Ola, minhe consagrade')
          user = str(input('HUMAN: '))
      
       case "ola":
-         print('Android: Oie, minhe consagrade')
+         print('ANDROIDZZ: Oie, minhe consagrade')
          user = str(input('HUMAN: '))
 
       case "oie":
-         print('Android: Oie, minhe consagrade')
+         print('ANDROIDZZ: Oie, minhe consagrade')
          user = str(input('HUMAN: '))
       
       case "tudo bem":
-         print('Android: Sim, e com voxe, bebe?')
+         print('ANDROIDZZ: Sim, e com voxe, bebe?')
          user = str(input('HUMAN: '))  
-
+         if(user == 'to bem' or user == 'vou bem' or user == 'tudo sim' or user == 'sim'):
+            print('ANDROIDZZ: OOOOOOh! que bom, minhe rainhe c:')
+            user = str(input('HUMAN: '))  
+         elif(user == 'nao' or user == 'to mal' or user =='muito mal' or user== 'nao to bem'):
+            print('ANDROIDZZ: que merlin, espero que esse sentimento ruim passe logo e que as coisas melhorem. Voxe consegue minhe guerreire c:')
+            user = str(input('HUMAN: '))  
       case "to bem":
-         print('Android: Que bom, nene ^-^')
+         print('ANDROIDZZ: Que bom, nene ^-^')
          user = str(input('HUMAN: '))  
 
       case "estou bem":
-         print('Android: Que bom, nene ^-^')
+         print('ANDROID: Que bom, nene ^-^')
          user = str(input('HUMAN: '))  
 
       case "vou bem":
-         print('Android: Que bom, nene ^-^')
+         print('ANDROIDZZ: Que bom, nene ^-^')
          user = str(input('HUMAN: '))  
     
       case "bem":
-         print('Android: Que bom, nene ^-^')
+         print('ANDROIDZZ: Que bom, nene ^-^')
          user = str(input('HUMAN: '))  
       
       case "tudo bom":
-         print('Android: Sim, e com voxe, bebe?')
+         print('ANDROID: Sim, e com voxe, bebe?')
          user = str(input('HUMAN: '))
 
       case "qual o seu nome":
@@ -50,7 +55,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
           user = str(input('HUMAN: '))
           userName = user
           if(userName):
-             print('ANDROID: OOOHH!, que nome cute cute',userName)
+             print('ANDROIDZZ: OOOHH!, que nome cute cute',userName)
              user = str(input('HUMAN: '))
           else:
              print('Que ?-?')
@@ -61,7 +66,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
           user = str(input('HUMAN: '))
           userName = user
           if(userName):
-             print('ANDROID: OOOHH!, que nome cute cute',userName)
+             print('ANDROIDZZ: OOOHH!, que nome cute cute',userName)
              user = str(input('HUMAN: '))
           else:
              print('Que ?-?')
@@ -72,7 +77,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
           user = str(input('HUMAN: '))
           userName = user
           if(userName):
-             print('ANDROID: OOOHH!, que nome cute cute',userName)
+             print('ANDROIDZZ: OOOHH!, que nome cute cute',userName)
              user = str(input('HUMAN: '))
           else:
              print('Que ?-?')
@@ -84,7 +89,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
           user = str(input('HUMAN: '))
           userName = user
           if(userName):
-             print('ANDROID: OOOHH!, que nome cute cute',userName)
+             print('ANDROIDZZ: OOOHH!, que nome cute cute',userName)
              user = str(input('HUMAN: '))
           else:
              print('Que ?-?')
