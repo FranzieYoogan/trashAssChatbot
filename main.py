@@ -188,7 +188,12 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
                y = float(input('HUMAN: '))
              print('qual tipo de calculo?-? soma, multiplicacao,divisao ou subtracao')
              user = str(input('HUMAN: '))
-
+             if(user != 'soma' and user != 'subtracao' and user != 'multiplicacao' and user != 'divisao'):
+                    print('ANDROIDZZ: Nao e uma operacao valida minhe monarca, digite |calculo| e tente novamente... Ou digite tchau e voce se livra de mim hehe T-T')
+                    user = str(input('HUMAN: '))
+                    if(user == 'tchau'):
+                     print('ANDROIDZZ: Adeus, ser humaninhe... Acho que a solidao pixelana me aguarda :c ')
+                     break    
           
              if(user == 'multiplicacao'):
                 print('ANDROIDZZ: ', x * y)
@@ -197,9 +202,10 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
                 if(user == 'sim' or user == 'claro'):
                   print('ANDROIDZZ: entao pode falar, minhe divindade c:')
                   user = str(input('HUMAN: '))
-                  if(user == 'nao'):
+                elif(user == 'nao'):
                    print('ANDROIDZZ: fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
                    break
+        
              if(user == 'divisao'):
                 print('ANDROIDZZ: ', x / y)
                 print('Mais alguma coisinha, minhe monarca?-?')
@@ -210,6 +216,8 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
                 elif(user == 'nao'):
                   print('ANDROIDZZ: fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
                   break
+                
+            
             
        
 
@@ -223,27 +231,27 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
                 elif(user == 'nao'):
                   print('ANDROIDZZ: fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
                   break
+                
+                    
+
+
              if(user == 'subtracao'):
                 print('ANDROIDZZ: ', x - y)
                 print('ANDROIDZZ: Mais alguma coisinha, minhe monarca?-?')
                 user = str(input('HUMAN: '))
-             elif(user != 'soma' or user != 'subtracao' or user != 'multiplicacao' or user != 'divisao'):
-                print('ANDROIDZZ: Nao e uma operacao valida minhe monarca, digite |calculo| e tente novamente... Ou digite tchau e voce se livra de mim hehe T-T')
-                user = str(input('HUMAN: '))
-                if(user == 'tchau'):
-                   print('ANDROIDZZ: Adeus, ser humaninhe... Acho que a solidao pixelana me aguarda :c ')
-                   break
-             if(user == 'sim' or user == 'claro'):
+                if(user == 'sim' or user == 'claro'):
                   print('ANDROIDZZ: entao pode falar, minhe divindade c:')
+                  value = True
                   user = str(input('HUMAN: '))
-             elif(user == 'nao'):
+                elif(user == 'nao'):
                   print('ANDROIDZZ: fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
                   break
 
-        
-             elif(user == 'sim'):
-                print('entao diga, minhe consagrade c:')
-                user = str(input('HUMAN: '))
+          
+            
+            
+             
+
       case "obrigade":
           print('ANDROIDZZ: de nada minhe monarca ^-^')
           user = str(input('HUMAN: '))
