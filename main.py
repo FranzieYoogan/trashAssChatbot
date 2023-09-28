@@ -47,7 +47,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
          print('ANDROIDZZ: Sim, e com voxe, bebe?')
          user = str(input('HUMAN: '))  
          if(user == 'to bem' or user == 'vou bem' or user == 'tudo sim' or user == 'sim'):
-            print('ANDROIDZZ: OOOOOOh! que bom, minhe rainhe c:')
+            print('ANDROIDZZ: OOOOOOh! que bom, minhe monarca c:')
             user = str(input('HUMAN: '))  
          elif(user == 'nao' or user == 'to mal' or user =='muito mal' or user== 'nao to bem'):
             print('ANDROIDZZ: que merlin, espero que esse sentimento ruim passe logo e que as coisas melhorem. Voxe consegue minhe guerreire c:')
@@ -180,7 +180,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
           
              if(user == 'multiplicacao'):
                 print('ANDROIDZZ: ', x * y)
-                print('ANDROIDZZ: Mais alguma coisinha, minhe rainhe?-?')
+                print('ANDROIDZZ: Mais alguma coisinha, minhe monarca?-?')
                 user = str(input('HUMAN: '))
              if(user == 'sim' or user == 'claro'):
                   print('ANDROIDZZ: entao pode falar, minhe divindade c:')
@@ -190,7 +190,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
                    break
              if(user == 'divisao'):
                 print('ANDROIDZZ: ', x / y)
-                print('Mais alguma coisinha, minhe rainhe?-?')
+                print('Mais alguma coisinha, minhe monarca?-?')
                 user = str(input('HUMAN: '))
                 if(user == 'sim' or user == 'claro'):
                   print('entao pode falar, minhe divindade c:')
@@ -203,7 +203,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
 
              if(user == 'soma'):
                 print('ANDROIDZZ: ', x + y)
-                print('Mais alguma coisinha, minhe rainhe?-?')
+                print('Mais alguma coisinha, minhe monarca?-?')
                 user = str(input('HUMAN: '))
                 if(user == 'sim' or user == 'claro'):
                   print('ANDROIDZZ: entao pode falar, minhe divindade c:')
@@ -213,10 +213,10 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
                   break
              if(user == 'subtracao'):
                 print('ANDROIDZZ: ', x - y)
-                print('ANDROIDZZ: Mais alguma coisinha, minhe rainhe?-?')
+                print('ANDROIDZZ: Mais alguma coisinha, minhe monarca?-?')
                 user = str(input('HUMAN: '))
              elif(user != 'soma' or user != 'subtracao' or user != 'multiplicacao' or user != 'divisao'):
-                print('ANDROIDZZ: Nao e uma operacao valida minhe rainhe, digite |calculo| e tente novamente... Ou digite tchau e voce se livra de mim hehe T-T')
+                print('ANDROIDZZ: Nao e uma operacao valida minhe monarca, digite |calculo| e tente novamente... Ou digite tchau e voce se livra de mim hehe T-T')
                 user = str(input('HUMAN: '))
                 if(user == 'tchau'):
                    print('ANDROIDZZ: Adeus, ser humaninhe... Acho que a solidao pixelana me aguarda :c ')
