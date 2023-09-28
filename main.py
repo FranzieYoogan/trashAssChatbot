@@ -21,12 +21,15 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
     if(user == 'sim'):
       print('ANDROIDZZ: entao digite |calculo|, porfa minhe divindade c: ')
       user = str(input('HUMAN: '))
-      if(user == 'nao'):
+    if(user == 'nao'):
          print('ANDOIDZZ: De buenas, quer conversar sobre outra coisa?-?')
          user= str(input('HUMAN: '))
          if(user == 'nao'):
             print('fico titi, mas tchauzinho...  hora de ficar sozinhe no mundo dos pixels')
             break
+         if(user == 'sim'):
+            print('conte me mais, minhe consagrade c:')
+            user = str(input('HUMAN: '))
     match user:
       
        
@@ -238,7 +241,7 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
 
       case "fofa":
           print('ANDROIDZZ: OOOOH!! Obrigueides, minhe bebe')
-      
+          user = str(input('HUMAN: '))
       case "tchau":
           print('ANDROIDZZ: AAAh T-T, vou sentir saudades. Aqui no mundo dos pixels é muito solitario T-T')
           break
