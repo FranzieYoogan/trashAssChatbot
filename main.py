@@ -11,9 +11,14 @@ if (user == 'oi' or user == 'oie' or user == 'ola'):
     
     if('o que e' in user):
       
-      print('Ta me achando com cara de titio GOOGLE ?-?') 
-      user = str(input('HUMAN: '))
-
+     print('Ta me achando com cara de titio GOOGLE ?-? Peca |desculpas| humaninhe HUM HUM HUM ç-ç ') 
+     user = str(input('HUMAN: '))
+     if(user == 'desculpa' or user == 'me perdoa' or user == 'perdao' or user == 'foi mal'):
+        print('ANDROIDZZ: eu te perdoo, danadinhe hehe ^-^. Vamos começar de novo,ta? fala |oi| pra papae')
+        user = str(input('HUMAN: '))
+     elif(user != 'desculpa' or user != 'me perdoa' or user != 'perdao' or user != 'foi mal'):
+        print('ANDROIDZZ: cebose, ATE NUNCA MAIS!!!!      De volta ao mundo dos pixels T-T')
+        break
     if('quanto e' in user):
       
       print('ANDROIDZZ: OOOH! Deseja fazer um calculo ?-?') 
